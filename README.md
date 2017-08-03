@@ -1,6 +1,6 @@
 #Study for SASS
 
-Project to study SASS
+Project to study SASS using Gulp to compile
 
 
 ```
