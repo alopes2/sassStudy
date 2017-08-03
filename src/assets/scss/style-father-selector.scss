@@ -1,0 +1,26 @@
+$hoverColor: purple;
+$mainFontSize: 24px;
+
+a{
+    text-decoration:none;
+    &:hover{
+        text-decoration: underline;
+    }
+    &:visited{
+        color: $hoverColor;
+    }
+
+.section{
+    background: black;
+    .content{
+        &-main{
+            font-size: $mainFontSize;
+        }
+        &-secondary{
+            font-size: 12px;
+        }
+        &-header{
+            font-size: 48px;
+        }
+    }
+}}

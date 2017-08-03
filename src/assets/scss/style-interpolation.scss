@@ -1,0 +1,8 @@
+$color: black;
+$property: font;
+$fontSize: 14px;
+
+.#{$color}{
+    color: $color;
+    #{$property}-size: $fontSize;
+}

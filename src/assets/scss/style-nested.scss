@@ -1,0 +1,26 @@
+$color : red;
+$hoverColor: purple;
+$mainFontSize: 24px;
+
+h1{
+    color: $color;
+}
+
+main{
+    width: 97%;
+    background: black;
+    font-size: $mainFontSize;
+    p, div{
+        font-size: 12px;
+        a{
+            text-decoration:none;
+            &:hover{
+                text-decoration: underline;
+            }
+            &:visited{
+                color: $hoverColor;
+            }
+        }
+    } 
+}
+

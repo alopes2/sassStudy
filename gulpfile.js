@@ -7,7 +7,7 @@ gulp.task('sass', () => {
     log('Compiling sass');
     return gulp
             .src('src/assets/scss/**/*.scss')
-            .pipe(sass())
+            .pipe(sass({outputStyle: 'expanded'}))
             .pipe(gulp.dest('src/assets/css'));
     }
 );

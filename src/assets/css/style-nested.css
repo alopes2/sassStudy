@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+}
+
+main {
+  width: 97%;
+  background: black;
+  font-size: 24px;
+}
+
+main p, main div {
+  font-size: 12px;
+}
+
+main p a, main div a {
+  text-decoration: none;
+}
+
+main p a:hover, main div a:hover {
+  text-decoration: underline;
+}
+
+main p a:visited, main div a:visited {
+  color: purple;
+}
