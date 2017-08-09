@@ -1,0 +1,17 @@
+h1 {
+  width: 75%;
+  color: red;
+}
+
+p {
+  width: 75%;
+  color: green;
+}
+
+p span {
+  color: blue;
+}
+
+p b {
+  color: green;
+}

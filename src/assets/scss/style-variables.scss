@@ -1,0 +1,21 @@
+$title-color: red;
+$paragraph-color: green;
+$default-width: 50%;
+h1{
+    $default-width: 75% !global;
+    width: $default-width;
+    color: $title-color;
+}
+
+p{
+    width: $default-width;
+    color: $paragraph_color; // $paragraph-color is the same as $paragraph_color
+    span{
+        $paragraph-color: blue; //if !global is added, all $paragraph-color variables will be blue
+        color: $paragraph-color;
+    }
+
+    b {
+        color: $paragraph-color;
+    }
+}
