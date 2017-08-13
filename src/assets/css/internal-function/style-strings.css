@@ -1,0 +1,19 @@
+.item-1::after {
+  content: hello;
+}
+
+.item-2::after {
+  content: "hello";
+}
+
+.item-3::after {
+  border-width: 5;
+}
+
+.item-4::after {
+  content: "HELLO";
+}
+
+.item-5::after {
+  content: "hello";
+}

@@ -1,0 +1,17 @@
+.main {
+  font: 30px/1.4 sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: black;
+  color: white;
+}
+
+.section {
+  font: 30px/1.4 sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: red;
+  color: white;
+}

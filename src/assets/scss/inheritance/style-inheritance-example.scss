@@ -1,0 +1,15 @@
+.error{
+    color: #FF0000;
+}
+
+.atention{
+    @extend .error;
+    background: yellow;
+}
+
+.fatal-error{
+    @extend .atention;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}

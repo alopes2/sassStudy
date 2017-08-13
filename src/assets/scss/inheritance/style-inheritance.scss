@@ -1,0 +1,20 @@
+%father-1{
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+%father-2{
+    background: green;
+    color: white;
+}
+
+.father-3{
+    padding: 10px 15px;
+}
+
+.son{
+    @extend %father-1;
+    @extend %father-2;
+    @extend .father-3;
+    font-family: Arial, Helvetica, sans-serif;
+}

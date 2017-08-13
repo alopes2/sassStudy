@@ -1,0 +1,19 @@
+@mixin theme($time){
+    @if ($time == morning){
+        background: white;
+        color: black;
+    } @else if($time == afternoon){
+        background: blue;
+        color: yellow;
+    } @else if($time == night){
+        background: black;
+        color: white;
+    } @else {
+        background: yellow;
+        color: blue;
+    }
+}
+
+body{
+    @include theme(morning);
+}

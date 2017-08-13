@@ -1,0 +1,9 @@
+@function square($value, $un: px){
+    $res: $value * $value;
+    @return $res + unquote($un);
+}
+
+body{
+    width: square(5, '%');
+    height: square(20);
+}

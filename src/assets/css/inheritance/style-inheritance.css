@@ -1,0 +1,17 @@
+.son {
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.son {
+  background: green;
+  color: white;
+}
+
+.father-3, .son {
+  padding: 10px 15px;
+}
+
+.son {
+  font-family: Arial, Helvetica, sans-serif;
+}

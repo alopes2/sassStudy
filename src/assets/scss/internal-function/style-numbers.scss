@@ -1,0 +1,9 @@
+.item-1{
+    width: percentage(0.1);
+    height: round(200.4);
+    border-top-width: ceil(4.3);
+    border-bottom-width: floor(4.3);
+    border-left-width: min(1,2,3,4,5);
+    border-right-width: max(1,2,3,4,5);
+    min-height: random(500);
+}

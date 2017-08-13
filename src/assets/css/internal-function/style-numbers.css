@@ -1,0 +1,9 @@
+.item-1 {
+  width: 10%;
+  height: 200;
+  border-top-width: 5;
+  border-bottom-width: 4;
+  border-left-width: 1;
+  border-right-width: 5;
+  min-height: 210;
+}

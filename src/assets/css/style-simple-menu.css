@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.menu {
+  width: 100%;
+  background: #d75893;
+  margin: 0;
+}
+
+.menu ul {
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  line-height: 0;
+  padding: 40px 15px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu ul li a:hover, .menu ul li a:focus {
+  background: #fff;
+  color: #d75893;
+}

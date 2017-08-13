@@ -1,0 +1,21 @@
+.item-1::after{
+    content: unquote("hello");
+}
+
+.item-2::after{
+    content: quote(hello);
+}
+
+.item-3::after{
+    border-width: str-length(hello);
+}
+.item-4::after{
+    content: to-upper-case("hello");
+}
+.item-5::after{
+    content: to-lower-case("HELLO");
+}
+
+
+
+

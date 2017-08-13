@@ -1,0 +1,12 @@
+$background: red;
+
+@if ($background == blue){
+    body{
+        background: $background;
+        color: white;
+    }
+} @else{
+    body{
+        background: black;
+    }
+}

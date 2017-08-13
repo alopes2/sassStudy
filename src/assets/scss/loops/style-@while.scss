@@ -1,0 +1,9 @@
+$cont: 1;
+
+@while $cont < 5{
+    .item-#{$cont}{
+        width: 50px * $cont;
+    }
+
+    $cont: $cont + 1;
+}

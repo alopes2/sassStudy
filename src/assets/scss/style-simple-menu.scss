@@ -1,0 +1,33 @@
+@mixin menu($hover-color, $main-color, $menu-height:80px, $menu-width:30px){
+    body{
+        margin: 0;
+    }
+
+    .menu{
+        width: 100%;
+        background: $main-color;
+        margin: 0;
+        ul{
+            display: table;
+            margin: 0 auto;
+            list-style: none;
+            li{
+                display: inline;
+                a{
+                    line-height: 0;
+                    padding: $menu-height/2 $menu-width/2;
+                    display: inline-block;
+                    color: $hover-color;
+                    text-decoration: none;
+
+                    &:hover, &:focus{
+                        background: $hover-color;
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include menu(#fff, #d75893);

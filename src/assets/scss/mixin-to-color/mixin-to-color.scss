@@ -1,0 +1,20 @@
+@mixin color($color, $property, $tone){
+    @if($tone == 1){
+        #{$property}: lighten($color, 40%);
+    }@else if($tone == 2){
+        #{$property}: lighten($color, 20%);
+    }@else if($tone == 3){
+        #{$property}: lighten($color, 10%);
+    }@else if($tone == 4){
+        #{$property}: lighten($color, 0%);
+    }@else if($tone == 5){
+        #{$property}: darken($color, 15%);
+    }@else if($tone == 6){
+        #{$property}: darken($color, 20%);
+    }
+}
+
+body{
+    @include color(red, background, 6);
+    @include color(blue, color, 2);
+}

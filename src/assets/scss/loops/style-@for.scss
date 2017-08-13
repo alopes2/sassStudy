@@ -1,0 +1,11 @@
+@for $i from 1 through 4{
+    div.through-#{$i}{
+        width: 20% * $i;
+    }
+}
+
+@for $i from 1 to 4{
+    div.to-#{$i}{
+        width: 20% * $i;
+    }
+}

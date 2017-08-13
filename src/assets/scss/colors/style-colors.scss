@@ -1,0 +1,18 @@
+.main{
+    background: rgba(blue, 1);
+}
+
+.second{
+    background: darken(blue, 10%);
+    color: lighten(blue, 10%);
+}
+
+.third{
+    background: saturate(blue, 30%);
+    color: desaturate(blue, 10%);
+}
+
+.fourth{
+    background: adjust-hue(blue, 10%);
+    color: adjust-hue(blue, -10%);
+}

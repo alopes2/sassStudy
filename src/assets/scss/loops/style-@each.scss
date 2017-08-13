@@ -1,0 +1,7 @@
+$social-networks:(insta, face, youtube);
+
+@each $icon in $social-networks{
+    .icon-#{$icon}{
+        background : url(img/#{$icon}.png);
+    }
+}

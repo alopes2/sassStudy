@@ -1,0 +1,52 @@
+.item-1{
+    color: rgb(200,130,30);
+    background: rgba(130, 78, 200, 0.5);
+}
+
+.item-2{
+    //return the red value of the color
+    color: red(#778811);
+    //return the blue value of the color
+    background: blue(#778811);
+    //return the green value of the color
+    border-color: green(#ff5599);
+}
+
+.item-3{
+    color: mix(#778811, #ff5599, 25);
+}
+
+//HSL
+.item-4{
+    color: hsl(200,130,30);
+    background: hsla(130, 78, 200, 0.5);
+}
+
+.item-5{
+    //return the hue value of the color
+    color: hue(#778811);
+    //return the saturation value of the color
+    background: saturation(#778811);
+    //return the lightness value of the color
+    border-color: lightness(#ff5599);
+}
+
+.item-6{
+    color: grayscale(#778811);
+    background: complement(#778811);
+    border-color: invert(#ff5599);
+}
+
+.item-7{
+    //or opacity($color);
+    color: alpha(#778811);
+
+    background: rgba(#778811, 0.6);
+
+    //or fade-in($color, $value);
+    border-bottom-color: opacify(rgba(#778811, 0.4), 0.2);
+
+    //or fade-out($color, $value);
+    border-top-color: transparentize(red, 0.5);
+}
+
